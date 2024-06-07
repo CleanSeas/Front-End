@@ -1,23 +1,27 @@
-var peixinho = document.getElementById('peixeVoltar');
+var bolinha = document.getElementById('bolinha');
 
 window.addEventListener('scroll', function() {
-    if (window.scrollY > 100) { // Ponto de rolagem onde a cor muda
-        peixinho.style.color = '#3bc4ff'; // Cor opaca
-        peixinho.style.cursor = 'pointer';
+    if (window.scrollY > 200) {
+        bolinha.style.backgroundColor = '#fafafa'; 
+        bolinha.style.color = '#3bc4ff';
+        bolinha.style.cursor = 'pointer';
     } else {
-        peixinho.style.color = '#86c3e500'; // Transparente
-        peixinho.style.cursor = 'default';
+        bolinha.style.backgroundColor = '#86c3e500'; 
+        bolinha.style.color = '#86c3e500';
+        bolinha.style.cursor = 'default';
     }
 });
 
-peixinho.addEventListener('mouseenter', function() {
-    if (window.scrollY > 100) {
-        peixinho.style.color = '#003f71'
+bolinha.addEventListener('mouseenter', function() {
+    if (window.scrollY > 200) {
+        bolinha.style.backgroundColor = '#eeeeee';
+        bolinha.style.color = '#00b3ff';
     }
 })
 
-peixinho.addEventListener('mouseleave', function() {
-    if (window.scrollY > 100) {
-        peixinho.style.color = '#3bc4ff'
+bolinha.addEventListener('mouseleave', function() {
+    if (window.scrollY > 200) {
+        bolinha.style.backgroundColor = '#fafafa';
+        bolinha.style.color = '#3bc4ff';
     }
 })
