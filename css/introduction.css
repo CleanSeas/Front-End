@@ -1,3 +1,42 @@
 .introduction {
     background-color: #1A769F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-tartaruga {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 85vh;
+}
+
+#tartaruga {
+    height: 100%;
+    width: 100%;
+}
+
+.apresentacao {
+    color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 4px #003F71;
+    border-radius: 3rem;
+    padding: 3vw;
+    width: 30vw;
+    height: 80vh;
+}
+
+.apresentacao h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.apresentacao p {
+    font-weight: 400;
+    font-size: 1rem;
 }
