@@ -1,10 +1,8 @@
 :root {
-    --primari-color: #f8e795;
+    --primari-color: #003f71;
     --cinze-color: #e7e7e7;
     --amareloEsc-color: #d2ac47;
 }
-
-
 
 html {
     scroll-behavior: smooth;
@@ -24,7 +22,7 @@ header {
     grid-template-columns: auto 1fr;
     justify-content: space-between;
     align-items: center;
-    background-color: #f8e795;
+    background-color: #003f71;
     font-family: "Updock", cursive;
 }
 
