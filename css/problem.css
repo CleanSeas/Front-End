@@ -1,0 +1,42 @@
+.problem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #003F71;
+}
+
+.boxProblema {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F4F4F4;
+    border-radius: 2rem;
+    padding: 3vw;
+    width: 50vw;
+    height: 35vw;
+}
+
+.boxProblema h1 {
+    font-size: 2vw;
+}
+
+.boxProblema p {
+    width: 43vw;
+    font-size: 1.5vw;
+}
+.imagemNavio {
+    border-radius: 2rem;
+    width: 14vw;
+    height: 100%;
+}
+
+.boxProblema ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+.navioPNG {
+    width: 40vw;
+}
