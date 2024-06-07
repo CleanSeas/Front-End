@@ -21,7 +21,6 @@
 .apresentacao {
     color: #ebebeb;
     display: flex;
-
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -42,4 +41,172 @@
 .apresentacao p {
     font-weight: 400;
     font-size: 1rem;
+}
+
+#abrirModal {
+    color: #00aaff;
+    font-weight: bold;
+}
+
+#modal {
+    margin: auto;
+    background-color: #f7f7f7;
+    border-radius: 2rem;
+    border: 0;
+    width: 70vw;
+    height: 80vh;
+}
+
+#modalNaoPodeDisplay {
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    gap: 2vw;
+}
+
+#superioresModal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#time h1 {
+    color: #1b5f97;
+    font-size: 4vw;
+    margin-top: -2vw;
+}
+
+dialog::backdrop {
+    background-color: rgba(0,0,0, 0.7);
+}
+
+#btnFechar {
+    color: #1b5f97;
+    width: 100%;
+    height: 2vw;
+    display: flex;
+    font-size: 2vw;
+    justify-content: flex-end;
+    transition: all .5s ease;
+}
+
+#btnFechar:hover {
+    color: #288ada;
+    cursor: pointer;
+}
+
+#faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh;
+    background-color: #f4f4f4;
+    height: 70vh;
+    box-shadow: inset 0 -.8vh 2vh -1.3vh rgba(0, 0, 0, 0.3);
+}
+
+#fotos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+}
+
+#time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    font-size: 1.8vw;
+}
+
+.tracoAzul {
+    display: flex;
+    width: 2.7vw;
+    height: .5vw;
+    border-radius: 1rem;
+    background-color: var(--button-color);
+    color: #f2f4f700;
+}
+
+#time i{
+    font-size: 3vw;
+}
+
+a {
+    color: var(--button-color);
+}
+
+.buttoon {
+    display: grid;
+    align-items: start;
+    width: 60%;
+    height: 8vh;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 18.65vw;
+    height: 55vh;
+    background-color: #fff;
+    box-shadow: 0 1vw 1.2vw 0 rgba(0, 0, 0, 0.062);
+}
+
+.perfil img{
+    width: 18.65vw;
+    height: auto;
+}
+
+.descPerfil{
+    color: #282828;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.descPerfil h2{
+    font-size: 1.6vw;
+}
+
+.descPerfil h3{
+    color: #3E3E59;
+    font-weight: 400;
+    font-size: 1.1vw;
+}
+
+.descPerfil p{
+    color: #5F6980;
+    font-weight: lighter;
+    font-size: 1.5vh;
+}
+
+.icones{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 2.5vw;
+    height: 2.5vw;
+    font-size: 1.2vw;
+    color: #282828;
+    background-color: #F2F4F7;
+    border-radius: 100%;
+    transition: all 0.3s ease;
+}
+
+.icon:hover{
+    background-color: #cacbce;
+    color: #000000;
 }

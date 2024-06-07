@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/section.css" />
     <link rel="stylesheet" href="./css/menu.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/home.css" />
@@ -15,19 +14,14 @@
     <link rel="stylesheet" href="./css/solution.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"/>
 
-    <script
-      src="https://kit.fontawesome.com/6cc8a6f404.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <title>Clean Seas</title>
+    <script src="https://kit.fontawesome.com/6cc8a6f404.js" crossorigin="anonymous"></script>
     <script src="./js/scrollFish.js" defer></script>
     <script src="./js/chatbot.js" defer></script>
+    <script src="./js/modal.js" defer></script>
+
+    <title>Clean Seas</title>
   </head>
   <body>
     <header>
@@ -37,15 +31,14 @@
       <nav>
         <ul class="menu">
           <li>
-            <a href="#impacto">Impacto</a>
+            <a href="#problem">Impacto</a>
           </li>
           <li>
-            <a href="#apoiadores">Apoiadores</a>
+            <a href="#company">Apoiadores</a>
           </li>
           <li>
             <a href="#">Contato</a>
           </li>
-      
         </ul>
       </nav>
     </header>
@@ -66,12 +59,99 @@
           <img src="./img/tartaruga.png" alt="tartaruga nadando para a esquerda" id="tartaruga">
         </div>
         <div class="apresentacao">
-          <h1>Lorem Ipsum</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat placerat massa, quis hendrerit lectus volutpat in. Vestibulum lacinia laoreet sem, mattis aliquam massa sagittis eu. Ut dictum, felis ac euismod faucibus, nisi nulla feugiat orci, eget tristique dolor quam nec metus. Nunc neque urna, iaculis ut sagittis et, facilisis eu libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi nec lorem nec massa porttitor vehicula. Praesent vulputate commodo neque, ut molestie dui maximus nec. Morbi ac sem vitae nibh lobortis ultricies sagittis nec orci. Suspendisse vel mauris eu erat vestibulum fringilla id eu libero. Morbi a mi et sapien posuere tristique. Curabitur accumsan nisi lorem, a hendrerit enim pharetra eget. Vivamus et mi eget nunc viverra porttitor at vel purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent laoreet dapibus mauris. Nulla nec facilisis odio.
-          Proin mauris nulla, tristique ut dui nec, euismod ultrices eros. </p>
+          <h1>Sobre Nós</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat placerat massa, quis hendrerit lectus volutpat in. Vestibulum lacinia laoreet sem, mattis aliquam massa sagittis eu. Ut dictum, felis ac euismod faucibus, nisi nulla feugiat orci, eget tristique dolor quam nec metus. Nunc neque urna, iaculis ut sagittis et, facilisis eu libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi nec lorem nec massa porttitor vehicula. Praesent vulputate commodo neque, ut molestie dui maximus nec. Morbi ac sem vitae nibh lobortis ultricies sagittis nec orci. Você pode conferir os desenvolvedores deste projeto <a href="#introduction" id="abrirModal">aqui.</a></p>
+          <dialog id="modal">
+            <div id="modalNaoPodeDisplay">
+              <div id="superioresModal">
+                <div id="btnFechar">
+                  <i class="fa-regular fa-circle-xmark"></i>
+                </div>
+                <div id="time">
+                  <div class="tracoAzul">.</div>
+                  <h1>Time</h1>
+                  <div class="tracoAzul">.</div>
+                </div>
+              </div>
+              <div id="fotos">
+                <div class="perfil">
+                  <img
+                    src="../img/mikael.png"
+                    alt="foto do colaborador Mikael, com fundo azul pastel, um homem branco, de 18 anos, cabelos e olhos castanhos, vestindo uma camisa amarela e olhando sério para a cãmera"
+                  />
+                  <div class="descPerfil">
+                    <h2>Mikael Sanches</h2>
+                    <h3>Systems Analyst and Developer</h3>
+                    <p>Desenvolvedor iniciante, começando esse ano. - 19 anos.<p>
+                    <nav>
+                      <ul class="icones">
+                        <li>
+                          <a href="https://github.com/MikaelDv" target="_blank"><i class="fa-brands fa-github icon"></i></a>
+                        </li>
+                        <li>
+                          <a href="https://instagram.com/011mikael" target="_blank" ><i class="fa-brands fa-instagram icon"></i></a>
+                        </li>
+                        <li>
+                          <a href="https://www.linkedin.com/in/enzo-mikael-sanches-baptista-paes-fontes-531302297/" target="_blank"><i class="fa-brands fa-linkedin-in icon"></i></a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div class="perfil">
+                  <img
+                    src="../img/murilo.png"
+                    alt="foto do colaborador Murilo, com fundo salmão pastel, um homem branco, de 19 anos, cabelos e olhos castanhos, com um fone de ouvido branco, olhando sério para a câmera com a cabeça levemente inclinada"
+                  />
+                  <div class="descPerfil">
+                    <h2>Murilo Capristo</h2>
+                    <h3>Systems Analyst and Developer</h3>
+                    <p>Desenvolvedor iniciante, começando esse ano. - 19 anos.<p>
+                    <nav>
+                      <ul class="icones">
+                        <li>
+                          <a href="https://github.com/Murilo-Capristo" target="_blank"><i class="fa-brands fa-github icon"></i></a>
+                        </li>
+                        <li>
+                          <a href="https://instagram.com/capristin" target="_blank" ><i class="fa-brands fa-instagram icon"></i></a>
+                        </li>
+                        <li>
+                          <a href="https://www.linkedin.com/in/murilo-capristo-78809a306" target="_blank"><i class="fa-brands fa-linkedin-in icon"></i></a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div class="perfil">
+                  <img
+                    src="../img/paula.png"
+                    alt="foto da colabora Paula, em um fundo amarelo pastel, uma mulher branca, de 19 anos, cabelos castanhos claros e olhos castannhos, usa óculos, olhando para a câmera com um leve sorriso e cabeça levemente inclinada"
+                  />
+                  <div class="descPerfil">
+                    <h2>Paula Blesa</h2>
+                    <h3>Systems Analyst and Developer</h3>
+                    <p>Técnica em Desenvolvimento de Sistemas formada pelo SENAI - Jandira, 20 anos.<p>
+                    <nav>
+                      <ul class="icones">
+                        <li>
+                          <a href="https://github.com/StaniukaitisPaula" target="_blank"><i class="fa-brands fa-github icon"></i></a>
+                        </li>
+                        <li>
+                          <a href="https://instagram.com/p_blesaa" target="_blank" ><i class="fa-brands fa-instagram icon"></i></a>
+                        </li>
+                        <li>
+                          <a href="https://www.linkedin.com/in/paula-blesa-staniukaitis-5ab53224a/" target="_blank"><i class="fa-brands fa-linkedin-in icon"></i></a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </dialog>
         </div>
       </section>
-      <section class="problem">
+      <section class="problem" id="problem">
         <div class="titulo">
           <i class="fa-solid fa-water"></i>
           <h1 id="tituloProblem">Problemas</h1>
@@ -115,7 +195,7 @@
     
       </section>
     
-      <section class="company">
+      <section class="company" id="company">
         <div class="apresentacao-company">
           <h2 class="title_text">Empresas</h2>
           <div class="description">
@@ -152,9 +232,7 @@
         </div>
       
       </section>
-      <!-- <section class="sobre-mim" id="sobre-mim">
-      
-    </section> -->
+    </main>
      <footer>
         <div class="contt-email">
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">

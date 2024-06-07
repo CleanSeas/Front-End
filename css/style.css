@@ -45,12 +45,12 @@ footer {
     display: grid;
     place-content: center;
     color: aliceblue;
-    color: #00b3ff;
     background-color: #003f71;
     font-size: 2rem;
 }
 
 .voltar {
+    margin-top: 4vh;
     width: 100%;
     cursor: default;
     position: fixed;
@@ -70,5 +70,5 @@ footer {
     border-radius: 100%;
     width: 6vh;
     height: 6vh;
-    transition: all .5s ease;
+    transition: background-color .2s ease, color .2s ease;
 }
