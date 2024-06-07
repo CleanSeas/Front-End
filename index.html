@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/company.css" />
     <link rel="stylesheet" href="./css/solution.css" />
+    <link rel="stylesheet" href="./css/contato.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,6 +27,7 @@
     <script src="./js/scrollFish.js" defer></script>
     <script src="./js/chatbot.js" defer></script>
     <script src="./js/modal.js" defer></script>
+    <script src="./js/contato.js" defer></script>
 
     <title>Clean Seas</title>
   </head>
@@ -43,7 +45,51 @@
             <a href="#company">Apoiadores</a>
           </li>
           <li>
-            <a href="#">Contato</a>
+            <a href="#" id="abrirModal">Contato</a>
+            <dialog id="modal">
+              <div id="modalNaoPodeDisplay">
+                <div id="superioresModal">
+                  <div id="btnFechar">
+                    <i class="fa-regular fa-circle-xmark"></i>
+                  </div>
+                  <section class="form_wrap">
+
+                    <section class="cantact_info">
+                        <section class="info_title">
+                            <span class="fa fa-user-circle"></span>
+                            <h2 class="formu">Para fazer parte deste movimento, basta preencher nosso formulário de adesão ao lado.
+                               Caso tenha alguma dúvida ou precise de mais informações, 
+                              entre em contato conosco pelo e-mail a baixo.</h2>
+                        </section>
+              
+                        <section class="info_items">
+                            <p><span class="fa fa-envelope"></span> info.contact@gmail.com</p>
+                          
+                        </section>
+                    </section>
+            
+                    <form action="" class="form_contact">
+                        <h2>Cadastro</h2>
+                        <div class="user_info">
+                            <label for="names">Nome</label>
+                            <input type="text" id="names">
+            
+                            <label for="phone">Telefone/ Celular</label>
+                            <input type="text" id="phone">
+            
+                            <label for="email">Email</label>
+                            <input type="text" id="email">
+            
+                            <label for="mensaje">Menssagem</label>
+                            <textarea id="mensaje"></textarea>
+            
+                            <input type="button" value="Enviar" id="btnSend">
+                        </div>
+                    </form>
+            
+                </section>
+            
+            </dialog>
           </li>
         </ul>
       </nav>
