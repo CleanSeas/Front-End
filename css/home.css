@@ -1,16 +1,34 @@
 .home {
-    background-image: url(../img/ueuueueu.jpeg);
+    background-image: url(../img/home_background.webp);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     color: #fff;
+    height: 91vh;
+}
+
+.home h1 {
+    font-size: 6vw;
+    font-weight: 600;
 }
 
 #conhecanos {
-    background-color: #003f71;
+    background: linear-gradient(110deg, #003F71, #003F71, #005092);
+    background-size: 200% 100%;
+    background-position: 0% 0%;
     color: #fff;
-    width: 4vw;
-    height: 1vw;
-    border-radius: 1rem;
+    font-size: 1.2vw;
+    width: 17vw;
+    height: 5vw;
+    border-radius: 1.5rem;
+    border: 0;
+    transition: background-position 0.5s ease;
+}
+
+#conhecanos:hover {
+    pointer-events: auto;
+    cursor: pointer;
+    background-position: 100% 0%;
 }

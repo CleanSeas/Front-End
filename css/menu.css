@@ -1,13 +1,13 @@
 .menu {
     display: flex;
-    gap: 72px;
+    gap: 5vw;
     font-size: 2rem;
     justify-content: center;
     color: aliceblue;
 }
 
 .menu li {
-    border-bottom: 4px solid transparent;
+    border-bottom: .15rem solid transparent;   
     transition: border-color 0.5s;
 }
 
