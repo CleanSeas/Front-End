@@ -7,12 +7,12 @@
 }
 
 .menu li {
-    border-bottom: .15rem solid transparent;   
+    border-bottom: .12rem solid transparent;   
     transition: border-color 0.5s;
 }
 
 .menu li:hover {
-    border-color: #86c3e5;
+    border-color: aliceblue;
 }
 
 #logo {
