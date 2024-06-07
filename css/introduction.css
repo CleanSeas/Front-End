@@ -30,7 +30,6 @@
     width: 30vw;
     height: 80vh;
     box-shadow: 0px 0px 90px -5px #09384d;
-    
 }
 
 .apresentacao h1 {
@@ -79,7 +78,7 @@
 }
 
 dialog::backdrop {
-    background-color: rgba(0,0,0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 #btnFechar {
@@ -89,7 +88,7 @@ dialog::backdrop {
     display: flex;
     font-size: 2vw;
     justify-content: flex-end;
-    transition: all .5s ease;
+    transition: all 0.5s ease;
 }
 
 #btnFechar:hover {
@@ -97,7 +96,7 @@ dialog::backdrop {
     cursor: pointer;
 }
 
-#faq{
+#faq {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -105,7 +104,7 @@ dialog::backdrop {
     padding: 3vh;
     background-color: #f4f4f4;
     height: 70vh;
-    box-shadow: inset 0 -.8vh 2vh -1.3vh rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 -0.8vh 2vh -1.3vh rgba(0, 0, 0, 0.3);
 }
 
 #fotos {
@@ -126,13 +125,13 @@ dialog::backdrop {
 .tracoAzul {
     display: flex;
     width: 2.7vw;
-    height: .5vw;
+    height: 0.5vw;
     border-radius: 1rem;
     background-color: var(--button-color);
     color: #f2f4f700;
 }
 
-#time i{
+#time i {
     font-size: 3vw;
 }
 
@@ -147,7 +146,7 @@ a {
     height: 8vh;
 }
 
-.perfil{
+.perfil {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -157,12 +156,12 @@ a {
     box-shadow: 0 1vw 1.2vw 0 rgba(0, 0, 0, 0.062);
 }
 
-.perfil img{
+.perfil img {
     width: 18.65vw;
     height: auto;
 }
 
-.descPerfil{
+.descPerfil {
     color: #282828;
     padding: 1vw;
     display: flex;
@@ -170,29 +169,29 @@ a {
     gap: 1vh;
 }
 
-.descPerfil h2{
+.descPerfil h2 {
     font-size: 1.6vw;
 }
 
-.descPerfil h3{
-    color: #3E3E59;
+.descPerfil h3 {
+    color: #3e3e59;
     font-weight: 400;
     font-size: 1.1vw;
 }
 
-.descPerfil p{
-    color: #5F6980;
+.descPerfil p {
+    color: #5f6980;
     font-weight: lighter;
     font-size: 1.5vh;
 }
 
-.icones{
+.icones {
     display: flex;
     align-items: center;
     gap: 1vw;
 }
 
-.icon{
+.icon {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -201,12 +200,12 @@ a {
     height: 2.5vw;
     font-size: 1.2vw;
     color: #282828;
-    background-color: #F2F4F7;
+    background-color: #f2f4f7;
     border-radius: 100%;
     transition: all 0.3s ease;
 }
 
-.icon:hover{
+.icon:hover {
     background-color: #cacbce;
     color: #000000;
 }

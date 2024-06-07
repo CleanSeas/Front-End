@@ -1,5 +1,5 @@
 .solution {
-    background-color: #D9D9D9;
+    background-color: #d9d9d9;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -16,4 +16,29 @@
 #tartaruga {
     height: 100%;
     width: 100%;
+}
+
+.apresentacao_soluct {
+    color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 5px #1b5f97;
+    border-radius: 3rem;
+    padding: 3vw;
+    gap: 10px;
+    width: 30vw;
+    height: 50vh;
+    box-shadow: 0px 0px 90px -5px #09384d;
+    background-color: #107aaf;
+}
+
+.text_soluct {
+    font-size: 1.5rem;
+}
+
+.soluct {
+    color: black;
+    font-size: 5rem;
 }
