@@ -1,0 +1,20 @@
+.links {
+    /* max-width: 1200px; */
+    width: 100%;
+    display: grid;
+    grid-template-areas: "title title title" "contato social link";
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    justify-items: center;
+    height: auto;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+section {
+    background-color: red;
+}

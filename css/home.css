@@ -1,9 +1,16 @@
 .home {
-    display: grid;
-    background-image: url(../img/gatosqnsom.png);
-    background-size: cover;
-    width: 100%;
+    background-image: url(../img/ueuueueu.jpeg);
     background-repeat: no-repeat;
-    justify-content: center;
-    align-items: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+#conhecanos {
+    background-color: #003f71;
+    color: #fff;
+    width: 4vw;
+    height: 1vw;
+    border-radius: 1rem;
 }

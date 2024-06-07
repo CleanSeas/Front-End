@@ -1,24 +1,19 @@
-.home{
-    background-color: red;
+.introduction {
+    background-color: blue;
 }
 
-.introduction{
-background-color: blue;
+.problem {
+    background-color: yellow;
 }
 
-.problem{
-background-color: yellow;
+.soluction {
+    background-color: green;
 }
 
-.soluction{
-background-color: green;
-}
-
-.company{
+.company {
     background-color: palevioletred;
-
 }
-
-.links{
+/* 
+.links {
     background-color: rebeccapurple;
-}
+} */

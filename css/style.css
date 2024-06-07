@@ -23,7 +23,6 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #003f71;
-    font-family: "Updock", cursive;
 }
 
 #icon-half-menu {
@@ -39,19 +38,14 @@ section {
     height: 100vh;
 }
 
-.home {
-    display: flex;
-}
-
 footer {
     place-self: end center;
     height: 10vh;
     width: 100%;
     display: grid;
     place-content: center;
-    border-top: 2px solid #000;
-    background-color: #f8e795;
-    font-family: "Patrick Hand", cursive;
+    color: aliceblue;
+    background-color: #003f71;
     font-size: 2rem;
 }
 
