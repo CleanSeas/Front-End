@@ -1,5 +1,5 @@
 .introduction {
-    background-color: #1A769F;
+    background-color: #107aaf;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -21,14 +21,17 @@
 .apresentacao {
     color: #ebebeb;
     display: flex;
+
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border: solid 4px #003F71;
+    border: solid 5px #1b5f97;
     border-radius: 3rem;
     padding: 3vw;
     width: 30vw;
     height: 80vh;
+    box-shadow: 0px 0px 90px -5px #09384d;
+    
 }
 
 .apresentacao h1 {
