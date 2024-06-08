@@ -1,50 +1,21 @@
-$(document).ready(function(){
+const abrirModalCtt = document.querySelector('#abrirCtt');
+const fecharModalCtt = document.querySelector('#btnFecharCtt')
+const modalCtt = document.querySelector('#modCtt');
+const campoTEL = document.getElementById("idTel")
 
-    $('#btnSend').click(function(){
+abrirModalCtt.addEventListener('click', (e)=> {
+    modalCtt.showModal();
+})
 
-        var errores = '';
+fecharModalCtt.addEventListener('click', (e)=> {
+    modalCtt.close();
+})
 
-        // Validado Nombre ==============================
-        if( $('#names').val() == '' ){
-            errores += '<p>Escriba un nombre</p>';
-            $('#names').css("border-bottom-color", "#F14B4B")
-        } else{
-            $('#names').css("border-bottom-color", "#d1d1d1")
-        }
-
-        // Validado Correo ==============================
-        if( $('#email').val() == '' ){
-            errores += '<p>Ingrese un correo</p>';
-            $('#email').css("border-bottom-color", "#F14B4B")
-        } else{
-            $('#email').css("border-bottom-color", "#d1d1d1")
-        }
-
-        // Validado Mensaje ==============================
-        if( $('#mensaje').val() == '' ){
-            errores += '<p>Escriba un mensaje</p>';
-            $('#mensaje').css("border-bottom-color", "#F14B4B")
-        } else{
-            $('#mensaje').css("border-bottom-color", "#d1d1d1")
-        }
-
-        // ENVIANDO MENSAJE ============================
-        if( errores == '' == false){
-            var mensajeModal = '<div class="modal_wrap">'+
-                                    '<div class="mensaje_modal">'+
-                                        '<h3>Errores encontrados</h3>'+
-                                        errores+
-                                        '<span id="btnClose">Cerrar</span>'+
-                                    '</div>'+
-                                '</div>'
-
-            $('body').append(mensajeModal);
-        }
-
-        // CERRANDO MODAL ==============================
-        $('#btnClose').click(function(){
-            $('.modal_wrap').remove();
-        });
-    });
-
-});
+campoTEL.addEventListener("input", function(e){
+    var value = e.target.value;
+    var telPattern = value.replace(/\D/g, '')
+                          .replace(/(\d{2})(\d)/, '($1) $2')
+                          .replace(/(\d{4})(\d)/, '$1-$2')
+                          .replace(/(-\d{4})\d+?$/, '$1')
+    e.target.value = telPattern;
+})

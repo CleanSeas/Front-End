@@ -1,6 +1,6 @@
-const abrirModal = document.querySelector('#abrirModal');
-const fecharModal = document.querySelector('#btnFechar')
-const modal = document.querySelector('dialog');
+const abrirModal = document.querySelector('#abrirModalTime');
+const fecharModal = document.querySelector('#btnFecharTime')
+const modal = document.querySelector('#modalTime');
 
 abrirModal.addEventListener('click', (e)=> {
     modal.showModal();

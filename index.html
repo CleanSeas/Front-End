@@ -45,50 +45,28 @@
             <a href="#company">Apoiadores</a>
           </li>
           <li>
-            <a href="#" id="abrirModal">Contato</a>
-            <dialog id="modal">
-              <div id="modalNaoPodeDisplay">
-                <div id="superioresModal">
-                  <div id="btnFechar">
-                    <i class="fa-regular fa-circle-xmark"></i>
-                  </div>
-                  <section class="form_wrap">
+            <a href="#" id="abrirCtt">Contato</a>
+            <dialog id="modCtt" class="modal">
+              <div class="modalNaoPodeDisplay">
+                <div class="btnFechar" id="btnFecharCtt">
+                  <i class="fa-regular fa-circle-xmark"></i>
+                </div>
+                <form action="#" method="get" onsubmit="return" id="formularioCtt">
+                  <label for="idNome">Nome Completo</label>
+                  <input type="text" name="txtNome" id="idNome" required minlength="9" class="input-group">
 
-                    <section class="cantact_info">
-                        <section class="info_title">
-                            <span class="fa fa-user-circle"></span>
-                            <h2 class="formu">Para fazer parte deste movimento, basta preencher nosso formulário de adesão ao lado.
-                               Caso tenha alguma dúvida ou precise de mais informações, 
-                              entre em contato conosco pelo e-mail a baixo.</h2>
-                        </section>
-              
-                        <section class="info_items">
-                            <p><span class="fa fa-envelope"></span> info.contact@gmail.com</p>
-                          
-                        </section>
-                    </section>
-            
-                    <form action="" class="form_contact">
-                        <h2>Cadastro</h2>
-                        <div class="user_info">
-                            <label for="names">Nome</label>
-                            <input type="text" id="names">
-            
-                            <label for="phone">Telefone/ Celular</label>
-                            <input type="text" id="phone">
-            
-                            <label for="email">Email</label>
-                            <input type="text" id="email">
-            
-                            <label for="mensaje">Menssagem</label>
-                            <textarea id="mensaje"></textarea>
-            
-                            <input type="button" value="Enviar" id="btnSend">
-                        </div>
-                    </form>
-            
-                </section>
-            
+                  <label for="idEmail">Email</label>
+                  <input type="email"name="txtEmail" id="idEmail" required minlength="7" class="input-group">
+
+                  <label for="idTel">Telefone</label>
+                  <input type="tel" name="txtTel" id="idTel" required minlength="11" class="input-group">
+
+                  <label for="idMsg">Mensagem</label>
+                  <input type="text" name="txtMsg" id="idMsg" required minlength="5" class="input-group">
+
+                  <button type="submit" class="input-group">Enviar</button>
+                </form>
+              </div>
             </dialog>
           </li>
         </ul>
@@ -127,12 +105,12 @@
             porttitor vehicula. Praesent vulputate commodo neque, ut molestie
             dui maximus nec. Morbi ac sem vitae nibh lobortis ultricies sagittis
             nec orci. Você pode conferir os desenvolvedores deste projeto
-            <a href="#introduction" id="abrirModal">aqui.</a>
+            <a href="#introduction" class="abrirModal" id="abrirModalTime">aqui.</a>
           </p>
-          <dialog id="modal">
-            <div id="modalNaoPodeDisplay">
-              <div id="superioresModal">
-                <div id="btnFechar">
+          <dialog class="modal" id="modalTime">
+            <div class="modalNaoPodeDisplay">
+              <div class="superioresModal">
+                <div class="btnFechar" id="btnFecharTime">
                   <i class="fa-regular fa-circle-xmark"></i>
                 </div>
                 <div id="time">
