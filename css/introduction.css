@@ -39,7 +39,8 @@
 
 .apresentacao p {
     font-weight: 400;
-    font-size: 1rem;
+    text-align: justify;
+    font-size: 1.5rem;
 }
 
 .abrirModal {
@@ -49,14 +50,14 @@
 
 .modal {
     margin: auto;
-    background-color: #f7f7f7;
     border-radius: 2rem;
     border: 0;
-    width: 70vw;
-    height: 80vh;
 }
 
 .modalNaoPodeDisplay {
+    background-color: #f7f7f7;
+    width: 70vw;
+    height: 78vh;
     padding: 2vw;
     display: flex;
     flex-direction: column;
@@ -83,6 +84,7 @@ dialog::backdrop {
 
 .btnFechar {
     color: #1b5f97;
+    margin-top: -4.4rem;
     width: 100%;
     height: 2vw;
     display: flex;

@@ -46,16 +46,19 @@
           </li>
           <li>
             <a href="#" id="abrirCtt">Contato</a>
-            <dialog id="modCtt" class="modal">
-              <div class="modalNaoPodeDisplay">
-                <div class="btnFechar" id="btnFecharCtt">
-                  <i class="fa-regular fa-circle-xmark"></i>
-                </div>
+            <dialog id="modCtt" class="model">
+              <div>
+                <dialog class="valida"></dialog>
+              </div>
+              <div class="modalSemDisplay">
                 <div class="modalBoder">
+                  <div id="btnFecharCtt">
+                    <i class="fa-regular fa-circle-xmark"></i>
+                  </div>
                   <form
                     action="#"
                     method="get"
-                    onsubmit="return"
+                    onsubmit="return validacao()"
                     id="formularioCtt"
                   >
                     <label class="title_form" for="idNome">Nome Completo</label>
@@ -132,16 +135,7 @@
         <div class="apresentacao">
           <h1 class="text_sob">Sobre Nós</h1>
           <p class="text_nos">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat
-            placerat massa, quis hendrerit lectus volutpat in. Vestibulum
-            lacinia laoreet sem, mattis aliquam massa sagittis eu. Ut dictum,
-            felis ac euismod faucibus, nisi nulla feugiat orci, eget tristique
-            dolor quam nec metus. Nunc neque urna, iaculis ut sagittis et,
-            facilisis eu libero. Vestibulum ante ipsum primis in faucibus orci
-            luctus et ultrices posuere cubilia curae; Morbi nec lorem nec massa
-            porttitor vehicula. Praesent vulputate commodo neque, ut molestie
-            dui maximus nec. Morbi ac sem vitae nibh lobortis ultricies sagittis
-            nec orci. Você pode conferir os desenvolvedores deste projeto
+            Este projeto tem como propósito introduzir um guia abrangente sobre a saúde da flora e fauna marinha, destacando o papel crítico dos navios na poluição dos oceanos. Através dessa abordagem, não apenas buscamos aprimorar a compreensão sobre os impactos das atividades navais nos ecossistemas marinhos, mas também fortalecer os esforços de preservação e recuperação, promovendo uma conscientização mais ampla e ações efetivas para mitigar esses impactos. Você pode conferir os desenvolvedores deste projeto
             <a href="#introduction" class="abrirModal" id="abrirModalTime"
               >aqui.</a
             >
@@ -380,23 +374,19 @@
           <div class="skills">
             <ul class="img__container">
               <li class="img__icon">
-                <img src="./img/empresa.png" alt="" />
+                <img src="./img/empresa.png" alt="" class="imagemEmpresa"/>
               </li>
               <li class="img__icon">
-                <img src="./img/empresa1.png" alt="" />
+                <img src="./img/empresa1.png" alt="" class="imagemEmpresa"/>
               </li>
               <li class="img__icon">
-                <img src="./img/empresa2.png" alt="" />
-              </li>
-
-              <li class="img__icon">
-                <img src="./img/empresa4.png" alt="" />
+                <img src="./img/empresa2.png" alt="" class="imagemEmpresa"/>
               </li>
               <li class="img__icon">
-                <img src="./img/empresa5.png" alt="" />
+                <img src="./img/empresa3.png" alt="" class="imagemEmpresa"/>
               </li>
               <li class="img__icon">
-                <img src="./img/empresa6.png" alt="" />
+                <img src="./img/empresa4.png" alt="" class="imagemEmpresa"/>
               </li>
             </ul>
           </div>
