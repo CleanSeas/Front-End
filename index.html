@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/company.css" />
     <link rel="stylesheet" href="./css/solution.css" />
-    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/contato.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -51,21 +51,58 @@
                 <div class="btnFechar" id="btnFecharCtt">
                   <i class="fa-regular fa-circle-xmark"></i>
                 </div>
-                <form action="#" method="get" onsubmit="return" id="formularioCtt">
-                  <label for="idNome">Nome Completo</label>
-                  <input type="text" name="txtNome" id="idNome" required minlength="9" class="input-group">
+                <div class="modalBoder">
+                  <form
+                    action="#"
+                    method="get"
+                    onsubmit="return"
+                    id="formularioCtt"
+                  >
+                    <label class="title_form" for="idNome">Nome Completo</label>
+                    <input
+                      type="text"
+                      name="txtNome"
+                      id="idNome"
+                      required
+                      minlength="9"
+                      class="input-group"
+                    />
 
-                  <label for="idEmail">Email</label>
-                  <input type="email"name="txtEmail" id="idEmail" required minlength="7" class="input-group">
+                    <label class="title_form" for="idEmail">Email</label>
+                    <input
+                      type="email"
+                      name="txtEmail"
+                      id="idEmail"
+                      required
+                      minlength="7"
+                      class="input-group"
+                    />
 
-                  <label for="idTel">Telefone</label>
-                  <input type="tel" name="txtTel" id="idTel" required minlength="11" class="input-group">
+                    <label class="title_form" for="idTel">Telefone</label>
+                    <input
+                      type="tel"
+                      name="txtTel"
+                      id="idTel"
+                      required
+                      minlength="11"
+                      class="input-group"
+                    />
 
-                  <label for="idMsg">Mensagem</label>
-                  <input type="text" name="txtMsg" id="idMsg" required minlength="5" class="input-group">
+                    <label class="title_form" for="idMsg">Mensagem</label>
+                    <input
+                      type="text"
+                      name="txtMsg"
+                      id="idMsg"
+                      required
+                      minlength="5"
+                      class="input-group"
+                    />
 
-                  <button type="submit" class="input-group">Enviar</button>
-                </form>
+                    <button id="button_int" type="submit" class="input-group">
+                      Enviar
+                    </button>
+                  </form>
+                </div>
               </div>
             </dialog>
           </li>
@@ -105,7 +142,9 @@
             porttitor vehicula. Praesent vulputate commodo neque, ut molestie
             dui maximus nec. Morbi ac sem vitae nibh lobortis ultricies sagittis
             nec orci. Você pode conferir os desenvolvedores deste projeto
-            <a href="#introduction" class="abrirModal" id="abrirModalTime">aqui.</a>
+            <a href="#introduction" class="abrirModal" id="abrirModalTime"
+              >aqui.</a
+            >
           </p>
           <dialog class="modal" id="modalTime">
             <div class="modalNaoPodeDisplay">
