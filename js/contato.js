@@ -32,7 +32,7 @@ function validacao() {
         modalMsg.innerHTML = "";
         modalMsg.setAttribute("class","valida");
         modalMsg.close();
-        modalCtt.close();}, 2500);
+        modalCtt.close();}, 2850);
 
     return true;
 }
