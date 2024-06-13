@@ -58,7 +58,7 @@
                   <form
                     action="#"
                     method="get"
-                    onsubmit="return validacao()"
+                    onsubmit="return validacao();"
                     id="formularioCtt"
                   >
                     <label class="title_form" for="idNome">Nome Completo</label>
@@ -92,14 +92,14 @@
                     />
 
                     <label class="title_form" for="idMsg">Mensagem</label>
-                    <input
-                      type="text"
+                    <textarea
+                      rows="5"
                       name="txtMsg"
                       id="idMsg"
                       required
                       minlength="5"
                       class="input-group"
-                    />
+                    ></textarea>
 
                     <button id="button_int" type="submit" class="input-group">
                       Enviar
